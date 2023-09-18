@@ -1,2 +1,4 @@
 # trusucompsci
-Website for the TRU computer science club.
+Hello! This is Fernando Ferrufino my discord is ferru if you have any questions.
+
+
