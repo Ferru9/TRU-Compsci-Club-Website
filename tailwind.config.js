@@ -11,6 +11,9 @@ module.exports = {
         accent: '#b25fb9',
       }
     },
+    fontFamily: {
+      body: ['Inter', 'Charm', 'Italianno']
+    }
   },
   plugins: [],
 }

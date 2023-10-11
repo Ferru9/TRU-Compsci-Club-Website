@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>TRU CS Club</title>
      <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
 
-     
+<body class="bg-background font-body">
+
+     <!-- Navbar -->
+     <nav class="relative container mx-auto p-5">
+
+          <!-- Flex Container -->
+          <div class="flex items-center lg:justify-evenly justify-end">
+
+               <!-- Logo -->
+               <div class="w-32 hidden">
+                    <a href="#">
+                         <img src="assets/logo.svg" alt="logo">
+                    </a>
+               </div>
+
+               <!-- Menu Items -->
+               <div class="text-2xl hidden lg:flex space-x-16 py-1 px-6">
+                    <a href="#" class="px-8 py-2">Home</a>
+                    <a href="#" class="px-8 py-2">About</a>
+                    <a href="#" class="px-8 py-2">Get Involved</a>
+                    <a href="#" class="px-8 py-2">Events</a>
+                    <a href="#" class="px-8 py-2">Resources</a>
+               </div>
+
+               <!-- Hamburger Icon -->
+               <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+               </button>
+          </div>
+
+          <!-- Mobile Menu -->
+          <div class="lg:hidden">
+               <div id="menu"
+                    class="absolute flex-col items-center hidden self-end py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#" class="">Home</a>
+                    <a href="#" class="">About</a>
+                    <a href="#" class="">Get Involved</a>
+                    <a href="#" class="">Events</a>
+                    <a href="#">Resources</a>
+               </div>
+
+          </div>
+
+     </nav>
+
+     <!-- Hero Section -->
+     <section id="hero" class="flex flex-col items-center gap-4">
+
+          <!-- Logo -->
+          <img src="assets/logo.svg" alt="logo" class="w-48">
+
+          <!-- Title -->
+          <div class="text-text text-center">
+               <p>Thompson Rivers University's</p>
+               <p>Computer Science Community</p>
+          </div>
+
+          <!-- Socials -->
+          <div class="flex gap-4">
+               <img src="/assets/discord_icon.svg" alt="disc" class="w-12">
+               <img src="assets/instagram_icon.svg" alt="ig" class="w-10">
+               <img src="assets/facebook_icon.svg" alt="fb" class="w-10">
+          </div>
+
+     </section>
+
+     <!-- Events -->
+     <section id="events"></section>
+
+     <!-- Footer -->
+     <footer></footer>
+
+     <!-- Hamburger Script -->
+     <script src="assets/hamburger.js"></script>
+
 </body>
+
 </html>
