@@ -28,6 +28,14 @@
 }
 
 /*
+add html black background to fix white showing in nav-bar
+*/
+html{
+  background-color: black;
+}
+
+
+/*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
