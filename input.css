@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 .event-card {
-     @apply rounded-lg p-3 bg-primary gap-5 flex flex-col shadow-lg shadow-accent;
+     @apply rounded-lg p-3 bg-primary gap-5 flex flex-col shadow-lg shadow-accent 
+     md:min-w-[40rem] md:max-w-[40rem] min-w-[1rem] break-all;
 }
 
 .bg-hero-to-section {
