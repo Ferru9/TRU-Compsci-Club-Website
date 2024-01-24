@@ -809,6 +809,12 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .event-card{
   display: flex;
   min-width: 1rem;
@@ -954,6 +960,7 @@ video {
 
 .area {
   background: rgb(9, 10, 21);
+  max-width: 100;
   background: linear-gradient(180deg, rgba(9, 10, 21, 1) 90%, rgba(51, 0, 51, 1) 100%);
   z-index: -1;
 }
@@ -977,7 +984,7 @@ video {
   opacity: 0;
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
-  bottom: -150px;
+  bottom: 17rem;
 }
 
 .circles li:nth-child(1) {
@@ -1024,7 +1031,7 @@ video {
 
 .circles li:nth-child(6) {
   pointer-events: none;
-  left: 75%;
+  left: 60%;
   width: 110px;
   height: 110px;
   animation-delay: 3s;
@@ -1058,9 +1065,9 @@ video {
 
 .circles li:nth-child(10) {
   pointer-events: none;
-  left: 85%;
-  width: 150px;
-  height: 150px;
+  left: 70%;
+  width: 80px;
+  height: 80px;
   animation-delay: 0s;
   animation-duration: 11s;
 }
@@ -1072,8 +1079,8 @@ video {
     border-radius: 0;
   }
 
-  30%{
-    opacity: 1;
+  30% {
+    opacity: 0.4;
   }
 
   100% {
